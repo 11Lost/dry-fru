@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce-admin",
+  "name": "dry-fruit",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
@@ -15,11 +15,10 @@
     "upgrade:dry": "npx @strapi/upgrade latest --dry"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "5.47.0",
-    "@strapi/plugin-users-permissions": "5.47.0",
-    "@strapi/strapi": "5.47.0",
-    "better-sqlite3": "12.8.0",
-    "pg": "^8.22.0",
+    "@strapi/plugin-cloud": "5.48.1",
+    "@strapi/plugin-users-permissions": "5.48.1",
+    "@strapi/strapi": "5.48.1",
+    "pg": "8.20.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
@@ -32,11 +31,11 @@
     "typescript": "^5"
   },
   "engines": {
-    "node": ">=20.0.0 <=24.x.x",
+    "node": ">=20.0.0 <=26.x.x",
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "5617118f-9976-4681-93b4-f4441b1e8857",
-    "installId": "e3e631c263df1de8459a3c395c6c04f6dae91e31e7d6982b93728c9612038cea"
+    "uuid": "2794be0f-908a-43d3-87ca-88c7b5825063",
+    "installId": "d37fefbc296dbadec17ba7db3a5a373c204c4ae7889a172a2036da1ff1635686"
   }
 }
