@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_variant_variants",
+  "info": {
+    "displayName": "Variant"
+  },
+  "options": {},
+  "attributes": {
+    "weight": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "originalPrice": {
+      "type": "decimal"
+    },
+    "gst": {
+      "type": "decimal"
+    },
+    "APMC": {
+      "type": "decimal"
+    }
+  },
+  "config": {}
+}

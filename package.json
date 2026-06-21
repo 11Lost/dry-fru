@@ -1,5 +1,5 @@
 {
-  "name": "dry-fruit",
+  "name": "dry-furit",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
@@ -24,18 +24,13 @@
     "react-router-dom": "^6.0.0",
     "styled-components": "^6.0.0"
   },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "typescript": "^5"
-  },
+  "devDependencies": {},
   "engines": {
     "node": ">=20.0.0 <=26.x.x",
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "2794be0f-908a-43d3-87ca-88c7b5825063",
-    "installId": "d37fefbc296dbadec17ba7db3a5a373c204c4ae7889a172a2036da1ff1635686"
+    "uuid": "2e051e1e-2626-4bfa-b72f-9819dbb8f489",
+    "installId": "b5ab78081663aa91d46a25722515d499f519dc75202e0fe28025230f1d5b46e1"
   }
 }

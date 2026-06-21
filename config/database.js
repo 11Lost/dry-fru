@@ -1,7 +1,6 @@
-import path from 'path';
-import type { Core } from '@strapi/strapi';
+const path = require('path');
 
-const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Database => {
+module.exports = ({ env }) => {
   const client = env('DATABASE_CLIENT', 'sqlite');
 
   const connections = {
@@ -45,7 +44,7 @@ const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Database 
     },
     sqlite: {
       connection: {
-        filename: path.join(__dirname, '..', '..', env('DATABASE_FILENAME', '.tmp/data.db')),
+        filename: path.join(__dirname, '..', env('DATABASE_FILENAME', '.tmp/data.db')),
       },
       useNullAsDefault: true,
     },
@@ -59,5 +58,3 @@ const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Database 
     },
   };
 };
-
-export default config;
