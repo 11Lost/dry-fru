@@ -1,4 +1,6 @@
-module.exports = ({ env }) => ({
+import type { Core } from '@strapi/strapi';
+
+const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Admin => ({
   auth: {
     secret: env('ADMIN_JWT_SECRET'),
   },
@@ -19,3 +21,5 @@ module.exports = ({ env }) => ({
     docLinks: env.bool('FLAG_DOC_LINKS', true),
   },
 });
+
+export default config;
